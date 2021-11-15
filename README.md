@@ -2,7 +2,11 @@
 
 Use Apache Spark to analyze Wikipedia data.
 
-For example, [this notebook](/notebooks/1a_gis_analysis_of_wikipedia_with_spark_h3_and_deckgl.ipynb) parses the Wikipedia dump for [mediawiki coord templates](https://en.wikipedia.org/wiki/Template:Coord) to produce maps like the one shown below, visualizing all `{{coord...}`'s in the English Wikipedia :
+[This notebook](/notebooks/0_spark_preprocessing_of_wikipedia.ipynb) parses the Wikipedia dump for [mediawiki coord templates](https://en.wikipedia.org/wiki/Template:Coord) and loads it into Spark.
+
+[This notebook](/notebooks/1a_gis_analysis_of_wikipedia_with_spark_h3_and_deckgl.ipynb) to produce maps like the one shown below, visualizing all `{{coord...}`'s in the English Wikipedia.
+
+The resulting map looks like:
 
 ![Map of all coordinate templates in Wikipedia](assets/all_wikipedia_coords.png "Map of all coordinate templates in Wikipedia")
 
